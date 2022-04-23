@@ -1,15 +1,12 @@
 html {
-font-size: 100%
+background-color: #ffecd1;
+font-size: 100%;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-body {
-background-color: #ffecd1;
 }
 
 h1{
@@ -30,14 +27,62 @@ font-size: 125%;
 h4 {
   font-size: 110%;
 }
-p img{
+
+.tlogo{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
-  height: 35%;
+  width: 15em;
+  height: 15em;
   opacity: 1;
 }
+
+.plogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13.2em;
+  height: 13.2em;
+  opacity: 1;
+}
+
+.zlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  height: 15em;
+  opacity: 1;
+}
+
+.tcontainer {
+max-width: 45%;
+max-height: 45%;
+float: left;
+padding: 1em;
+}
+
+.pcontainer {
+max-width: 45%;
+max-height: 45%;
+float: right;
+padding: 1em;
+}
+
+.zcontainer {
+max-width: 45%;
+max-height: 45%;
+float: left;
+padding: 1em;
+}
+
+.firstblurb {
+font-size: 110%;
+max-width: 55em;
+max-height: 35em;
+padding: 0 35em 0 35em;
+}
+
 
 #terran-background {
 background-color: #395c6b;
